@@ -4,11 +4,11 @@ MAINTAINER Takttimeteam <bharath.kumar@takttimecloud.com>
 
 WORKDIR /usr/apps/hello-docker/
 
-RUN apk -y update
+RUN apk update
 
-RUN apk install -y nodejs
+RUN apk install nodejs
 
-RUN apk install -y npm
+RUN apk install npm
 
 
 RUN npm install -g http-server
