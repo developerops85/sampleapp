@@ -6,9 +6,9 @@ WORKDIR /usr/apps/hello-docker/
 
 RUN apk update
 
-RUN apk install nodejs
+RUN apk add nodejs
 
-RUN apk install npm
+RUN apk add npm
 
 
 RUN npm install -g http-server
